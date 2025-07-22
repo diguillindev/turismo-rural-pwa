@@ -1,0 +1,17 @@
+---
+export interface Props { title: string; }
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/turismo-rural-pwa/manifest.webmanifest" />
+    <meta name="theme-color" content="#65a30d" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-base-100">
+    <slot />
+  </body>
+</html>

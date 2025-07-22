@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Estilos generales */
+body {
+  @apply bg-base-100 text-base-content;
+}
+/* Estilos para FullCalendar */
+.fc .fc-toolbar-title{
+    margin-left: 85px; /* Ajusta el margen izquierdo del título */
+}
+/* Estilos para FullCalendar en móvil */
+@media (max-width: 767px) {
+  /* título del header (centro) */
+  .fc .fc-toolbar-title {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  /* botones del header: prev/next más pequeños */
+  .fc .fc-toolbar.fc-header-toolbar .fc-button {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* celdas del día: número más grande */
+  .fc .fc-daygrid-day-number {
+    font-size: 0.875rem;
+  }
+}

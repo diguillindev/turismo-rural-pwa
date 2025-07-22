@@ -1,0 +1,13 @@
+{
+  "name": "Turismo Rural Ñuble",
+  "short_name": "TurismoÑuble",
+  "description": "Reserva tu cabaña, cabalgata o visita al campo.",
+  "start_url": "/turismo-rural-pwa/",
+  "display": "standalone",
+  "theme_color": "#65a30d",
+  "background_color": "#fdfdfc",
+  "icons": [
+    { "src": "/turismo-rural-pwa/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/turismo-rural-pwa/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
